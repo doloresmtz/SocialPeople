@@ -6,13 +6,15 @@
 //  Copyright (c) 2015 ConstruApps. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewMenu.h"
+#import "Globals.h"
+#import "People.h"
 
-@interface ViewController ()
+@interface ViewMenu ()
 
 @end
 
-@implementation ViewController
+@implementation ViewMenu
 
 - (void)viewDidLoad {
     [super viewDidLoad];

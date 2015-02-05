@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F824E5481A83080B00E101AC /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = F824E5471A83080B00E101AC /* Globals.m */; };
 		F89441C31A80772C00C8080B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F89441C21A80772C00C8080B /* main.m */; };
 		F89441C61A80772C00C8080B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F89441C51A80772C00C8080B /* AppDelegate.m */; };
-		F89441C91A80772C00C8080B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89441C81A80772C00C8080B /* ViewController.m */; };
+		F89441C91A80772C00C8080B /* ViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F89441C81A80772C00C8080B /* ViewMenu.m */; };
 		F89441CC1A80772C00C8080B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89441CA1A80772C00C8080B /* Main.storyboard */; };
 		F89441CE1A80772C00C8080B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89441CD1A80772C00C8080B /* Images.xcassets */; };
 		F89441D11A80772C00C8080B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F89441CF1A80772C00C8080B /* LaunchScreen.xib */; };
 		F89441DD1A80772C00C8080B /* SocialPeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F89441DC1A80772C00C8080B /* SocialPeopleTests.m */; };
+		F89441E91A807B0D00C8080B /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = F89441E81A807B0D00C8080B /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F824E5461A83080B00E101AC /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		F824E5471A83080B00E101AC /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
 		F89441BD1A80772C00C8080B /* SocialPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89441C11A80772C00C8080B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F89441C21A80772C00C8080B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F89441C41A80772C00C8080B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F89441C51A80772C00C8080B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F89441C71A80772C00C8080B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F89441C81A80772C00C8080B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F89441C71A80772C00C8080B /* ViewMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewMenu.h; sourceTree = "<group>"; };
+		F89441C81A80772C00C8080B /* ViewMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewMenu.m; sourceTree = "<group>"; };
 		F89441CB1A80772C00C8080B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F89441CD1A80772C00C8080B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F89441D01A80772C00C8080B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F89441D61A80772C00C8080B /* SocialPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89441DB1A80772C00C8080B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F89441DC1A80772C00C8080B /* SocialPeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialPeopleTests.m; sourceTree = "<group>"; };
+		F89441E71A807B0D00C8080B /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		F89441E81A807B0D00C8080B /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F824E5451A8307D400E101AC /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				F824E5461A83080B00E101AC /* Globals.h */,
+				F824E5471A83080B00E101AC /* Globals.m */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
 		F89441B41A80772C00C8080B = {
 			isa = PBXGroup;
 			children = (
+				F824E5451A8307D400E101AC /* Clases */,
+				F89441E61A807AE800C8080B /* Objetos */,
 				F89441BF1A80772C00C8080B /* SocialPeople */,
 				F89441D91A80772C00C8080B /* SocialPeopleTests */,
 				F89441BE1A80772C00C8080B /* Products */,
@@ -83,8 +100,8 @@
 			children = (
 				F89441C41A80772C00C8080B /* AppDelegate.h */,
 				F89441C51A80772C00C8080B /* AppDelegate.m */,
-				F89441C71A80772C00C8080B /* ViewController.h */,
-				F89441C81A80772C00C8080B /* ViewController.m */,
+				F89441C71A80772C00C8080B /* ViewMenu.h */,
+				F89441C81A80772C00C8080B /* ViewMenu.m */,
 				F89441CA1A80772C00C8080B /* Main.storyboard */,
 				F89441CD1A80772C00C8080B /* Images.xcassets */,
 				F89441CF1A80772C00C8080B /* LaunchScreen.xib */,
@@ -117,6 +134,15 @@
 				F89441DB1A80772C00C8080B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89441E61A807AE800C8080B /* Objetos */ = {
+			isa = PBXGroup;
+			children = (
+				F89441E71A807B0D00C8080B /* People.h */,
+				F89441E81A807B0D00C8080B /* People.m */,
+			);
+			name = Objetos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F89441C91A80772C00C8080B /* ViewController.m in Sources */,
+				F89441E91A807B0D00C8080B /* People.m in Sources */,
+				F89441C91A80772C00C8080B /* ViewMenu.m in Sources */,
 				F89441C61A80772C00C8080B /* AppDelegate.m in Sources */,
+				F824E5481A83080B00E101AC /* Globals.m in Sources */,
 				F89441C31A80772C00C8080B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +440,7 @@
 				F89441E21A80772C00C8080B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F89441E31A80772C00C8080B /* Build configuration list for PBXNativeTarget "SocialPeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				F89441E51A80772C00C8080B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
